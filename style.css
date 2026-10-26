@@ -1,0 +1,72 @@
+html {
+    background-color: rgb(178, 152, 122);
+    font-family: "warbler-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,h2,h3 {
+    font-family: "cesso", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+}
+
+code {
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(128, 86, 57);
+    color:beige;
+    border-radius: 20px 20px 0px 0px;
+    padding: 1px 25px 0px 25px;
+}
+
+.header-3 {
+    color: rgb(140, 99, 32);
+}
+
+.main {
+    background-color: beige;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 25px 5px 25px;
+}
+
+.tab-nav {
+    display: flex;
+    padding: 0;
+    margin: 15px 0px 0px 0px;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 3px;
+    text-align: center;
+}
+
+.tab-nav li {
+    flex: 1 1 0;
+}
+
+.nav-link {
+    background-color: rgb(91, 57, 32);
+    color: beige;
+    display: block;
+    padding: 10px 0;
+    border-radius: 10px 10px 0px 0px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: rgb(169, 150, 127);
+}
+
+.current-page {
+    background-color: beige;
+    color: rgb(91, 57, 32);
+}
